@@ -13,10 +13,10 @@ O objetivo da aplicação é determinar uma nomenclatura para um herói de RPG d
 A partir do que é sugerido na aula foi criada uma tabela de nomenclatura vs experiência conforme segue:
 | Experiência  | Classificação |
 | ------------- | ------------- |
-| < 100  | Iniciante  |
-| < 1.000  | Aprendiz  |
-| < 5.000  | Soldado  |
-| < 10.000  | Guerreiro  |
+| >= 100  | Iniciante  |
+| >= 1.000  | Aprendiz  |
+| >= 5.000  | Soldado  |
+| >= 10.000  | Guerreiro  |
 | >= 20.000  | Herói  |
 
 ![print exibindo a mudança de estado do personagem](assets/images/classificador_nivel_heroi_godot.png)
@@ -25,5 +25,6 @@ Próximos passos planejados para o projeto:
 | OK? | Feature |
 | --- | --- |
 | ✅  | Release inicial  |
-| ⛔  | Publicação no Github Pages via CI/CD  |
 | ⛔  | Indicador de level segundo a quantidade de XP  |
+| ⛔  | Atualizar os créditos com as licenças completas da Godot e do Pipoya  |
+| ⛔  | Publicação no Github Pages via CI/CD  |
