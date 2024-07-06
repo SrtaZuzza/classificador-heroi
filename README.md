@@ -1,4 +1,4 @@
-# Classificador de Nível de Herói
+# Classificador de Nível de Herói 🦸‍♀️
 
 Projeto inspirado pelo exercício em JavaScript proposto no curso **Base em lógica de programação para jogos** da [dio.me](https://web.dio.me/home)
 
