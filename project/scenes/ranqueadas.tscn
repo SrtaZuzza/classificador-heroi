@@ -1,0 +1,67 @@
+[gd_scene load_steps=2 format=3 uid="uid://kekul4olco5p"]
+
+[ext_resource type="Theme" uid="uid://bjc170xmwhtxs" path="res://assets/theme.tres" id="1_qagyx"]
+
+[node name="Ranqueadas" type="ColorRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_qagyx")
+color = Color(0.0980392, 0.329412, 0.521569, 1)
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 7
+
+[node name="Label" type="Label" parent="VBox"]
+layout_mode = 2
+text = "Digite os dados"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBox" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+alignment = 1
+
+[node name="Rich" type="RichTextLabel" parent="VBox/HBox"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+bbcode_enabled = true
+text = "AAA - 999
+BBB - 888
+CCC - 777
+DDD - 666
+EEE - 555"
+fit_content = true
+scroll_active = false
+
+[node name="Dados" type="VBoxContainer" parent="VBox/HBox"]
+layout_mode = 2
+
+[node name="HBoxV" type="HBoxContainer" parent="VBox/HBox/Dados"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBox/HBox/Dados/HBoxV"]
+layout_mode = 2
+text = "Venceu"
+
+[node name="SpinBox" type="SpinBox" parent="VBox/HBox/Dados/HBoxV"]
+layout_mode = 2
+value = 100.0
+
+[node name="HBoxD" type="HBoxContainer" parent="VBox/HBox/Dados"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="VBox/HBox/Dados/HBoxD"]
+layout_mode = 2
+text = "Perdeu"
+
+[node name="SpinBox2" type="SpinBox" parent="VBox/HBox/Dados/HBoxD"]
+layout_mode = 2

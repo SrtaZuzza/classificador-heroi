@@ -24,7 +24,7 @@ A partir do que é sugerido na aula foi criada uma tabela de nomenclatura vs exp
 Próximos passos planejados para o projeto:
 | OK? | Feature |
 | --- | --- |
-| ✅  | Release inicial  |
-| ⛔  | Indicador de level segundo a quantidade de XP  |
-| ⛔  | Atualizar os créditos com as licenças completas da Godot e do Pipoya  |
-| ⛔  | Publicação no Github Pages via CI/CD  |
+| ✅ | Release inicial  |
+| ⛔ | Indicador de level segundo a quantidade de XP  |
+| ⛔ | Atualizar os créditos com as licenças completas da Godot e do Pipoya  |
+| ✅ | Publicação no Github Pages via CI/CD  |

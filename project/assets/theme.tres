@@ -1,0 +1,31 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://bjc170xmwhtxs"]
+
+[ext_resource type="Texture2D" uid="uid://btpi5d7s4scg1" path="res://assets/images/Assets.png" id="1_m2638"]
+[ext_resource type="FontFile" uid="uid://qnn3nv8tmwuc" path="res://assets/fonts/Monogram/monogram_extended.ttf" id="2_q84p1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_64olm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qmrtd"]
+atlas = ExtResource("1_m2638")
+region = Rect2(56, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jkjqt"]
+content_margin_left = 4.0
+content_margin_bottom = 2.0
+texture = SubResource("AtlasTexture_qmrtd")
+texture_margin_left = 1.0
+texture_margin_top = 1.0
+texture_margin_right = 1.0
+texture_margin_bottom = 1.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jjv5r"]
+atlas = ExtResource("1_m2638")
+region = Rect2(40, 0, 16, 16)
+margin = Rect2(-1, 0, 0, 0)
+
+[resource]
+default_font = ExtResource("2_q84p1")
+LineEdit/colors/font_color = Color(1, 0.964706, 0.564706, 1)
+LineEdit/styles/focus = SubResource("StyleBoxEmpty_64olm")
+LineEdit/styles/normal = SubResource("StyleBoxTexture_jkjqt")
+SpinBox/icons/updown = SubResource("AtlasTexture_jjv5r")
