@@ -19,7 +19,7 @@ A partir do que é sugerido na aula foi criada uma tabela de nomenclatura vs exp
 | >= 10.000  | Guerreiro  |
 | >= 20.000  | Herói  |
 
-![print exibindo a mudança de estado do personagem](assets/images/classificador_nivel_heroi_godot.png)
+![print exibindo a mudança de estado do personagem](project/assets/images/classificador_nivel_heroi_godot.png)
 
 Próximos passos planejados para o projeto:
 | OK? | Feature |
