@@ -8,7 +8,7 @@ extends Node2D
 func _ready():
 	character.group_changed.connect(animate)
 
-func _input(event):
+func _input(_event):
 	if Input.is_action_just_pressed("ui_text_submit"):
 		_on_button_pressed()
 
